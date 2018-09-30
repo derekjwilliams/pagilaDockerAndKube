@@ -2,7 +2,7 @@
 
 ## On Localhoset Port 5434 
 
-docker run -d -p 5434:5432 -e POSTGRES_PASSWORD=admin -e POSTGRES_USER=root triceratops/pagila:1
+docker run -d -p 5434:5432 -e POSTGRES_PASSWORD=pagila -e POSTGRES_USER=pagila triceratops/pagila:latest
 
 
 Pagila
